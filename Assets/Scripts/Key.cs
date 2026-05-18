@@ -11,6 +11,7 @@ float pressedOffset = 1f;
    void OnMouseDown(){
     Debug.Log("Click en " + gameObject.name);
     transform.Translate(0, -1, 0);
+        pressed = true;
    }
 
    void OnMouseUp(){
